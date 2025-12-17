@@ -1,11 +1,11 @@
 * {
 	border: none;
 	font-family: "Hack Nerd Font" ;
-	font-size: 12px;
+	font-size: 11px;
 }
 
 window#waybar {
-	background: #1A2330;
+	background: #1B1B29;
 	opacity: 1.0;
 }
 
@@ -23,19 +23,19 @@ window#waybar {
 #workspaces button {
     all:unset;
     padding: 0px 5px;
-    color: alpha(#C4A9E6,.4);
+    color: alpha(#89B4FA,.4);
     transition: all .2s ease;
 }
 
 #workspaces button:hover {
-    color:#C4A9E6;
+    color: #89B4FA;
     border: none;
     text-shadow: 0px 0px 1.5px rgba(0, 0, 0, .5);
     transition: all 1s ease;
 }
 
 #workspaces button.active {
-    color: #C4A9E6;
+    color: #89B4FA;
     border: none;
     text-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
 }
@@ -47,14 +47,14 @@ window#waybar {
 }
 
 #workspaces button.empty:hover {
-    color: #C4A9E6;
+    color: #89B4FA;
     border: none;
     text-shadow: 0px 0px 1.5px rgba(0, 0, 0, .5);
     transition: all 1s ease;
 }
 
 #workspaces button.empty.active {
-    color: #C4A9E6;
+    color: #89B4FA;
     border: none;
     text-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
 }
@@ -65,7 +65,7 @@ window#waybar {
 	padding-left: 8px;
 	padding-right: 8px;
 	transition: none;
-	color: #C4A9E6;
+    color: #89B4FA;
 }
 
 #pulseaudio {
@@ -74,7 +74,7 @@ window#waybar {
 	padding-left: 8px;
 	padding-right: 8px;
 	transition: none;
-	color: #C4A9E6;
+    color: #89B4FA;
 }
 
 #battery {
@@ -83,15 +83,15 @@ window#waybar {
 	padding-left: 8px;
 	padding-right: 8px;
 	transition: none;
-	color: #C4A9E6;
+    color: #89B4FA;
 }
 
 #battery.charging, #battery.plugged {
-	color: #41ad13;
+	color: #a6e3a1;
 }
 
 #battery.critical:not(.charging) {
-	color: #ff193c;
+	color: #f38ba8;
 }
 
 #backlight {
@@ -100,7 +100,7 @@ window#waybar {
 	padding-left: 8px;
 	padding-right: 8px;
 	transition: none;
-	color: #C4A9E6;
+    color: #89B4FA;
 }
 
 #clock {
@@ -109,7 +109,7 @@ window#waybar {
 	padding-left: 8px;
 	padding-right: 8px;
 	transition: none;
-	color: #C4A9E6;
+    color: #89B4FA;
 }
 
 #memory {
@@ -118,7 +118,7 @@ window#waybar {
 	padding-left: 8px;
 	padding-right: 8px;
 	transition: none;
-	color: #C4A9E6;
+    color: #89B4FA;
 }
 
 #custom-power {
@@ -126,7 +126,7 @@ window#waybar {
 	padding-left: 8px;
 	padding-right: 8px;
 	transition: none;
-	color: #C4A9E6;
+    color: #89B4FA;
 }
 
 #cpu {
@@ -135,7 +135,7 @@ window#waybar {
 	padding-left: 8px;
 	padding-right: 8px;
 	transition: none;
-	color: #C4A9E6;
+    color: #89B4FA;
 }
 
 #tray {
@@ -144,18 +144,18 @@ window#waybar {
 	padding-left: 8px;
 	padding-right: 8px;
 	transition: none;
-	color: #C4A9E6;
+    color: #89B4FA;
 }
 
 #custom-launcher {
 	font-size: 20px;
-	margin-top: 2px;
-	margin-bottom: 2px;
+	margin-top: 0.5px;
+	margin-bottom: 0.5px;
 	margin-left: 8px;
 	margin-right: 4px;
 	padding-left: 8px;
 	padding-right: 8px;
 	transition: none;
-	color: #C4A9E6;
+    color: #89B4FA;
 }
 
